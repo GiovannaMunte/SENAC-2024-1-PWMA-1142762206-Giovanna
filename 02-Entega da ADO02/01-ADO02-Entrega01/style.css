@@ -1,0 +1,73 @@
+body{
+    /*background-image: url(https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/292500/aea64126dc61a308a7ff4b773538c1e03baa5ead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;*/
+    
+    background: #000 url(https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/292500/aea64126dc61a308a7ff4b773538c1e03baa5ead.jpg) no-repeat top center fixed;
+    background-size:contain;
+    height: 100%;
+
+    color: #f3f3f3;
+    font-size: 18px;
+    font-family: Arial;
+    
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0px;
+}
+div#page {
+    /*border: 1px solid purple;*/
+    /*border-radius: 5px;*/
+    background-color: #272727;
+    width: 755px;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: left;
+    position: relative
+}
+div#cabeçalho {
+    /*border: 2px solid red;*/
+    /*border-radius: 5px;*/
+    background-color: rgb(51, 51, 51);
+    width: 755px;
+    height: 50px;
+}
+div#esquerdo {
+    /*border: 2px solid green;*/
+    background-color: rgb(71, 71, 71);
+    width: 150px;
+    float: left;
+    margin: 0px 0 0px 0px;
+    height: 1020px; 
+}
+div#conteudo {
+    /*border: 2px solid blue;*/
+    /*background-color: blue;*/
+    width: 400px;
+    margin: 10px 0 10px 175px;
+    min-height: 1000px;
+    _height: 1000px
+}
+div#direito {
+    background-color: rgb(71, 71, 71);
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    /*border: 2px solid green;*/
+    width: 150px;
+    margin: 0;
+    height: 1020px;
+}
+div#descrição {
+    background-color: rgb(25, 25, 25);
+    /*border-radius: 5px;*/
+    /*border: 2px solid red;*/
+    width: 755px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
