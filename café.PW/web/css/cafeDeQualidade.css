@@ -1,0 +1,15 @@
+p {
+    font-size: 12px;
+    display: flex;
+    margin: 0px 0 0px 0px;
+    
+}
+h5 {
+    display: flex;
+    margin: 10px 0 10px 0px;
+}
+b{
+    display: flex;
+    margin: 10px 0 10px 0px; 
+    font-size: 11px; 
+}

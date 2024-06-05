@@ -1,0 +1,203 @@
+body {
+    /*background-image: url(https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/292500/aea64126dc61a308a7ff4b773538c1e03baa5ead.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;*/
+
+    background: #000000 url(https://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/292500/aea64126dc61a308a7ff4b773538c1e03baa5ead.jpg) no-repeat top center fixed;
+    background-size: contain;
+    height: 100%;
+
+    color: #f3f3f3;
+    font-size: 18px;
+    font-family: Arial;
+
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0px;
+}
+
+div#page {
+    /*border: 1px solid purple;*/
+    /*border-radius: 5px;*/
+    background-color: #272727;
+    width: 600px;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: left;
+    position: relative;
+}
+
+div#cabeçalho {
+    /*border: 2px solid red;*/
+    /*border-radius: 5px;*/
+    background-color: rgb(51, 51, 51);
+    width: 600px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div#abas {
+    /*background-color: #000;*/
+    width: 500px;
+    height: 60px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.logo {
+    /*background-color: #000;*/
+    width: 13%;
+    height: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+
+    /*top: 5%;
+        left: 0;*/
+}
+a#logo{
+    color: transparent;
+    font-size: 45px;
+}
+nav {
+    padding: 0rem 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+ul#links {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    color: #fff2e7;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+div#login {
+    /*background-color: #000;*/
+    width: 100px;
+    height: 60px;
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul#links-login {
+    font-size: 13px;
+}
+
+div#esquerdo {
+    /*border: 2px solid green;*/
+    /*background-color: rgb(71, 71, 71);*/
+    width: 100px;
+    float: left;
+    margin: 0px 0 0px 0px;
+    height: 100px;
+}
+
+div#centro {
+    /*border: 2px solid blue;*/
+    /*background-color: blue;*/
+    width: 400px;
+    margin: 1px 0 1px 100px;
+    /*min-height: 1000px;*/
+    /*_height: 1000px*/
+}
+
+div#conteudo {
+    margin: 0px 0 50px 0px;
+}
+
+div#direito {
+    /*background-color: rgb(71, 71, 71);*/
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    /*border: 2px solid green;*/
+    width: 100px;
+    margin: 0;
+    height: 70px;
+}
+
+div#descrição {
+    background-color: rgb(25, 25, 25);
+    /*border-radius: 5px;*/
+    /*border: 2px solid red;*/
+    width: 600px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+div#seleção{
+    /*border: 2px solid red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+div#contato {
+    /*background-color: #000;*/
+    width: 150px;
+    height: 130px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+a#descrição {
+    color:gray;
+    font-size: 10px;
+}
+svg{
+    width: 15%;
+    height: 80%;
+    fill: currentColor;
+}
+.bb .as{
+    color: gray;
+    display: flex;
+    align-items: center;
+    margin: 0px 0 5px 0px;
+}
+.bb .as .left-icon {
+    margin-right: .1rem;
+}
+h4#descrição {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0 10px 0px;
+}
+ul#descrição {
+    margin: 0px 0 3px 0px;
+}
+div#outros{
+    /*background-color: #000;*/
+    width: 150px;
+    height: 130px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+    margin: 10px 0 0px 0px;
+}

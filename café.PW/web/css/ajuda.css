@@ -1,0 +1,29 @@
+input{
+    border-radius: 5px;
+}
+button{
+    border-radius: 4px;
+}
+textarea#description {
+    border-radius: 5px;
+    width: 94%;
+    resize: none;
+}
+.hidden {
+    display: none;
+}
+div#table-container{
+    margin: 10px 0 0px 0px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #272727;
+}
